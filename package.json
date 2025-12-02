@@ -1,0 +1,17 @@
+{
+  "name": "aoc",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "new": "bun scripts/new-day.ts",
+    "day": "bun scripts/run-day.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
