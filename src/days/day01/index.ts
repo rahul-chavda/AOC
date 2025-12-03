@@ -1,4 +1,4 @@
-import { readLines, sum, parseNumbers } from "../../utils/input.ts";
+import { readLines } from "../../utils/input.ts";
 
 const DAY = 1;
 

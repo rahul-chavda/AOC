@@ -44,16 +44,16 @@ export async function readGroups(day: number, useExample: boolean = false): Prom
 /**
  * Read input as a 2D grid of characters
  */
-export async function readGrid(day: number): Promise<string[][]> {
-  const lines = await readLines(day);
+export async function readGrid(day: number, useExample: boolean = false): Promise<string[][]> {
+  const lines = await readLines(day, useExample);
   return lines.map(line => line.split(""));
 }
 
 /**
  * Read input as a 2D grid of numbers
  */
-export async function readNumberGrid(day: number): Promise<number[][]> {
-  const lines = await readLines(day);
+export async function readNumberGrid(day: number, useExample: boolean = false): Promise<number[][]> {
+  const lines = await readLines(day, useExample);
   return lines.map(line => line.split("").map(Number));
 }
 
