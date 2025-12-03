@@ -71,6 +71,10 @@ export function sum(arr: number[]): number {
   return arr.reduce((a, b) => a + b, 0);
 }
 
+export function sumBigInt(arr: bigint[]): bigint {
+  return arr.reduce((a, b) => a + b, 0n);
+}
+
 /**
  * Product of an array of numbers
  */

@@ -62,10 +62,10 @@ async function part2(): Promise<number> {
 console.log("🎄 Advent of Code - Day", DAY);
 console.log("─".repeat(30));
 
-// console.time("Part 1");
-// const result1 = await part1();
-// console.timeEnd("Part 1");
-// console.log("Part 1:", result1);
+console.time("Part 1");
+const result1 = await part1();
+console.timeEnd("Part 1");
+console.log("Part 1:", result1);
 
 console.log();
 
